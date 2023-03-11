@@ -1,0 +1,33 @@
+.about {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  &Img {
+    max-width: 80%;
+
+    @media (min-width: 768px) {
+      margin-right: 4rem;
+      max-width: 30%;
+    }
+  }
+
+  &Info {
+    max-width: 350px;
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  &Title {
+    font-size: 4rem;
+  }
+}
